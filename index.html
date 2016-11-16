@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Ventana Modal con Javascript SIN jQuery</title> 
+  
+      <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body>
+  <span><a title="legalDescripcio" id="finestra-modal-obrir" class="finestra-modal-obrir boto">OBRIR</a></span>
+<div id="finestra-modal" class="finestra-modal">
+  <div class="finestra-modal__contingut">
+    <div class="perfil_top"></div>
+    <img src="icon/login_user.png">
+    <div class="perfil_botom">
+      <div class="facebook_login">
+        <img src="icon/icon_inicio.png">
+        <p>Inicia sesion con Facebook</p>        
+
+      </div>
+      <div class="login_espacio">        
+      <div class="underline">
+          <hr>      
+        <span>OR</span>
+          <hr>
+      </div >   
+      <div class="login_password" >
+        <label class="login_password1">
+          Correo electrónico: 
+        </label>
+        <div>
+          <input type="text" placeholder="Tu correo">
+        </div>  
+      </div>
+      
+      <div class="login_password" >
+        <label class="login_password1">
+          Contraseña: 
+        </label>
+        <div>
+          <input id="contraseña" type="password" placeholder="Tu contraseña">
+        </div>  
+      </div>
+      <input class="inicio_login" type="submit" value="Iniciar Sesión">
+      </div>
+      <p class="login_cuenta">Si no cuentas con una cuenta <span class="register_login">REGISTRATE</span></p>
+    </div>
+    <div id="finestra-modal-tancar" class="finestra-modal-tancar boto">×</div>
+  </div>
+</div>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

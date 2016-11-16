@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+.boto {
+  display: table;
+  margin: 0;
+  padding: .5em 1em;
+  width: 1em;
+  height: 1em;
+  color: white;
+  /*background-color: DarkMagenta;*/
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.boto:hover {
+  text-decoration: none;
+}
+.boto:active, .boto:focus {
+  outline: none;
+}
+.boto:visited {
+  color: white;
+}
+
+.finestra-modal {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  z-index: 10;
+  top: -100vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all .75s;
+  transition: all .75s;
+}
+
+.finestra-modal__contingut {
+  position: relative;
+  /*padding: 2em;*/
+  width: 30%;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 3px;
+  /*height: 600px;*/
+}
+.finestra-modal__contingut h3 {
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.finestra-modal__contingut .finestra-modal-tancar {
+  position: absolute;
+  z-index: 15;
+  top: 15px;
+  right: 10px;
+  padding: 0;
+  background-color: none;
+  border-radius: 50%;
+}
+
+.js-mostrar {
+  top: 0;
+}
+.perfil_top{
+  height: 20vh;
+  background-color: #011f34;
+}
+.perfil_botom{
+  height: 60vh;
+  background-color: #f2f2f2;
+  padding-top: 100px;
+}
+hr{
+    width: 35%;
+    background-color: black;
+    
+  }
+.login_correo{
+      margin-bottom: 10px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_correo label{
+      margin-bottom: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_password input {
+    padding: 10px 4% 10px 4%;
+    /*background-color: #F1F1F1;*/
+    border: none;
+    font-size: 15px;
+ /*   width: 100%;*/
+}
+div .inicio_login {
+    cursor: pointer;
+    padding: 10px 8% 10px 8%;
+    background-color: #FFCC00;
+    color: #ffffff;
+    margin-bottom: 10px; 
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+}
+.facebook_login {
+    display: flex;
+    justify-content: center;
+    background-color: #365899;
+    width: 50%;
+    margin: auto;
+    height: 10%;
+    color: white;
+    margin: auto;
+}
+.facebook_login img {
+    width: 25px;
+    height: 20px;
+    margin-top: 7px;
+    /*margin-right: 20px;*/
+    margin-left: 10px;
+}
+.underline {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.register_login{
+  color: #FFCC00;
+}
+img {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    /* z-index: 100; */
+    margin-top: -50px;
+    margin-left: -70px;
+    /* margin: auto; */
+}
+p {
+    margin-left: 50px; 
+    font-size: 13px;
+}
+.perfil_botom p {
+ /*   margin-left: 50px; */
+    font-size: 13px;
+    margin: auto;
+    margin-right: 13px;
+}
+.login_cuenta{
+
+}
+.login_cuenta {
+    /* margin-left: 50px; */
+    /* font-size: 13px; */
+    /* margin: auto; */
+ margin-right: 30px; 
+}
